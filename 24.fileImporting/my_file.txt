@@ -1,0 +1,12 @@
+Al-hamdulillah, I have created this file using c! I am so happy.
+It's by append mode! yaaa.
+index -> 0 and value -> 1
+index -> 1 and value -> 2
+index -> 2 and value -> 3
+index -> 3 and value -> 4
+index -> 4 and value -> 5
+index -> 5 and value -> 6
+index -> 6 and value -> 7
+index -> 7 and value -> 8
+index -> 8 and value -> 9
+index -> 9 and value -> 10
