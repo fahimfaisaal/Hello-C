@@ -9,15 +9,15 @@ int main() {
     fpInput = fopen(inputFile, "r");
     fpOutput = fopen(outputFile, "w");
 
-    int num1, num2;
+    int total, num;
 
-    fscanf(fpInput, "%d", &num1);
-    fscanf(fpInput, "%d", &num2);
-
-    int total = num1 + num2;
+    while (num) {
+        fscanf(fpInput, "%d", &num);
+        total += num;
+    }
 
     printf("sum = %d\n", total);
-    fprintf(outputFile, "Total sum is = %d\n", total);
+    fprintf(fpOutput, "The sum = %d", total);
 
     fclose(fpInput);
     fclose(fpOutput);
